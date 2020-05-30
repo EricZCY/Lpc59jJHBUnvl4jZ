@@ -1,4 +1,3 @@
-# -*- coding: gbk -*-
 import json as js
 import requests
 import uuid
@@ -193,7 +192,7 @@ count = 0
 admin_username = ''
 admin_password = ''
 default_tenant = ''
-# 全局管理员账号密码和租户ID 租户ID这里看 ↓
+# 全局管理员账号密码和租户ID 租户ID这里看 ↓(新建一个应用，获取租户id）
 # https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade  打开终结点 "https://login.microsoftonline.com/" 和 “/oauth2/authorize”  之间的就是
 
 for i in range(thread_count):
